@@ -1,28 +1,11 @@
-let nameInput = document.querySelector('#name');
-let mailInput = document.querySelector('#mail');
-let submitBtn = document.querySelector('#submit');
+// const submitBtn = document.getElementById('submit');
+// let password = document.getElementById("password");
+// let confirmPassword = document.getElementById("confirm-password");
 
-submitBtn.addEventListener("click",function(){
-    if (!allLetters(nameInput)){
-        alert("letters only")
-    }
-    if(mailCheck(mailInput)){
-        alert('not valid mail')
-    }
-})
 
-function allLetters(input){
-    var letters = /^[A-Za-z]+$/;
-    if(input.value.match(letters)){
-        return true;
-    }else{
-        return false;
-    }
-}
-
-function mailCheck(input){
-    if(!input.value.includes("@")){
-        return false;
-    }
-}
-
+// submitBtn.addEventListener("click", ()=>{
+//     if(password.value!=confirmPassword.value){
+//         window.alert("PASSWORDS ARE NOT MATCHING");
+//         password.value = confirmPassword.value ="a";
+//     }
+// });

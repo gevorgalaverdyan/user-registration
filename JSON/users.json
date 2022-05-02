@@ -1,0 +1,18 @@
+[
+    {
+        "userID": 0,
+        "firstName": "Admin",
+        "familyName": "Admin",
+        "mail": "admin@gmail.com",
+        "password": "admin",
+        "isAmdin": "true"
+    },
+    {
+        "id": 1042464744,
+        "firstName": "a",
+        "lastName": "a",
+        "mail": "afd@gmail.com",
+        "password": "$2y$10$H6gYQ4ARUTcEQ2BACx5kCek2JL3mnJ.vo4d8hPjgB06EAx\/BOVkRm",
+        "isAdmin": "false"
+    }
+]

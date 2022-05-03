@@ -70,3 +70,15 @@ input{
   box-shadow: #3c4fe0 0 3px 7px inset;
   transform: translateY(2px);
 }
+
+#remember{
+  position: relative;
+  top: 0.1em;
+  transform : scale(1.5);
+  display: inline-block;
+}
+
+.login-link{
+  font-weight: bold;
+  text-decoration: none;
+}

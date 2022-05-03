@@ -11,7 +11,7 @@
     <body>
         <main>
             <h1>LOG IN</h1>
-            <form action="validate.php" method="post">
+            <form action="validation.php" method="post">
                 <label for="mail">
                         MAIL:
                         <input type="email" name="mail" id="mail" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" required>
@@ -22,6 +22,16 @@
                         <input type="password" name="password" id="password" required>
                 </label>
             
+                <label for="remember">
+                    Remember Me:
+                    <input type="checkbox" name="remember" id="remember">
+                </label>
+
+                <p>Not a member? 
+                    <a href="./index.php" class="login-link">Sign Up</a>
+                </p>
+                
+                <input type="submit" value="SUBMIT" id="submit">
             </form>
         </main>
         

@@ -6,5 +6,13 @@
         "mail": "admin@gmail.com",
         "password": "admin",
         "isAmdin": "true"
+    },
+    {
+        "userID": 1381926042,
+        "firstName": "Gevorg",
+        "lastName": "Alaverdyan",
+        "mail": "afd@gmail.com",
+        "password": "$2y$10$EslMKDFSxqNUW.p9YpwNmeQY\/RnDTqre9IMhYcsvbDjpDw2KAq8Ly",
+        "isAdmin": "false"
     }
 ]

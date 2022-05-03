@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>input</title>
+        <title>SIGN UP</title>
         <link rel="stylesheet" href="./style/style.css">
     </head>
 
@@ -37,6 +37,10 @@
                     <input type="password" name="confirm-password" id="confirm-password" required>
                 </label>
 
+                <p>Already a member? 
+                    <a href="./login.php" class="login-link">Log In</a>
+                </p>
+                
                 <input type="submit" value="SUBMIT" id="submit">
             </form>
         </main>
